@@ -1,0 +1,37 @@
+/* numbered headings */
+body {
+	counter-reset: headnum;
+}
+h3 {
+	border-top: 1px solid gray;
+	clear: left;
+}
+h3:before {
+	content: "(" counter(headnum, upper-latin) ") ";
+	counter-increment: headnum;
+}
+h3.numbered {
+	counter-reset: mynum;
+}
+p.numbered:before {
+	content: counter(mynum) ": ";
+	counter-increment: mynum;
+	font-weight: bold;
+}
+ul, div.wrap{
+	border: 10px solid aquamarine;
+	float: left;
+}
+li {
+	list-style: lower-roman;
+	margin-bottom: 8px;
+}
+#parent-div {
+	position: relative;
+	font: bold 200% sans-serif;
+}
+#fixed-pin {
+	position: fixed;
+	top:0;
+	left: 20%;
+}

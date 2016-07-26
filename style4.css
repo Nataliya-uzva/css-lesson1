@@ -1,0 +1,11 @@
+/*** Print sample ***/
+
+/* defaults  for screen */
+#print-head,
+#print-foot {
+	display: none;
+}
+h1:hover {
+	color: blue;
+}
+@import url("style5.css") print;
