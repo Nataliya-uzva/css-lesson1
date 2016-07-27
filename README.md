@@ -7,3 +7,6 @@ Work with MDN samples:
  3. [Challenge 12](https://nataliya-uzva.github.io/css-lesson1/layout%2012.html);
  4. [Challenge 13](https://nataliya-uzva.github.io/css-lesson1/tables%2013.html);
  5. [Challenge 14](https://nataliya-uzva.github.io/css-lesson1/media%2014.html);
+
+Work with Layout:
+1. [Layout 01](https://nataliya-uzva.github.io/css-lesson1/markup-1/);
