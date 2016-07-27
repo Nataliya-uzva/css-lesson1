@@ -1,0 +1,134 @@
+body {
+    width: 100%;
+    height: 100%;
+    font: 25px Arial;
+    margin: 0;
+    background: url(background.jpg) no-repeat;
+    background-size: 100%;
+    color: #FFF;
+}
+.h1{
+    width: 60%;
+    color: #0F0;
+    font: bold 35px serif;
+    margin: auto;
+    margin-top: 7%;
+}
+.window{
+    width: 60%;
+    height: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(0, 51, 56, 0.7);
+    border-radius: 10px;
+}
+
+.sidebar {
+    display: inline-block;
+    margin-left: 40px;
+ }
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.head p{
+    color: #888888;
+    font-size: 18px;
+    display: inline-block;
+    font-style: italic;
+}
+.head p:nth-child(2){
+    margin-left: 20px;
+}
+.content {
+    display: inline-block;
+    float: right;
+    margin-top: 100px;
+}
+.content .slider {
+    margin-bottom: 40px;
+}
+div.head span{
+    margin-right: 25px;
+}
+.tab {
+    list-style: none;
+    padding: 0;
+}
+.tab li {
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    }
+.tab li a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.tab li a.active {
+    color: #000;
+    background: #5DBCD2;
+    border-radius: 8px;
+    margin: 0px;
+    padding: 5px 10px;
+    cursor: auto;
+}
+.tab li a.active span {
+    border: none;
+}
+.tab li a span {
+    padding-bottom: 2px;
+    margin-right: 40px;
+    border-bottom: 1px dashed #ffffff;
+}
+.tab li:nth-child(2) a span {
+    margin-right: 47px;
+}
+
+.info {
+    margin-top: 30px;
+}
+td {
+    padding: 20px 5px;
+}
+table {
+    width: 700px;
+}
+.slider {
+    margin: 5px;
+    width: 500px;
+    height: 15px;
+    border-radius: 5px;
+    background: #5DBCD2;
+}
+
+.pointer {
+    position: relative;
+    top: -15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #18A1BD;
+    border: 1px solid #FFF;
+    cursor: pointer;
+}
+.scroll {
+    background: #18A1BD;
+    position: absolute;
+    top: -70px;
+    left: -30px;
+    width: 100px;
+    font: 20px Arial;
+    line-height: 50px;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    text-align: center;
+}
+.scroll::after {
+    content: '';
+    position: absolute;
+    top: 50px; left: 30px;
+    border: 20px solid transparent;
+    border-top: 20px solid #18A1BD;
+}

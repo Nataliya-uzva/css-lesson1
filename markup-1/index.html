@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Statistic</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="range.js"></script>
+</head>
+<body>
+ <div class="wrapper">
+        <div class="h1">
+            <h1>Если бы на прошлой неделе вы инвестировали в ПАММ-счет успешного управляющего</h1>
+        </div>
+
+     <div class="window">
+      <div class="sidebar">
+          <div class="head">
+             <p>№ счета</p>
+             <p>Управляющий</p>
+          </div>
+          <ul class="tab" id="tab"></ul>
+      </div>
+      <div class="content">
+              <div id="my-range" class="slider">
+                  <div class="pointer">
+                      <div class="scroll"></div>
+                      <div class="angle"></div>
+                  </div>
+              </div>
+              <table class="info">
+                  <tr>
+                      <td class="italic">Сегодня ваш депозит бы составил</td>
+                      <td class="numbers"></td>
+                  </tr>
+                  <tr>
+                      <td class="italic">За год при повторении вклада, заработали бы</td>
+                      <td class="numbers"></td>
+                  </tr>
+              </table>
+      </div>
+     </div>
+ </div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
